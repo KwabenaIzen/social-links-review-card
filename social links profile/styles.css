@@ -1,0 +1,138 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 14px;
+}
+h1{
+    color: white;
+}
+.main__body{
+   
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+}
+.card__image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.card__image img{
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    height: 200px;
+    border-radius: 50%;
+}
+.card__image h1{
+    padding: 10px;
+}
+.card__image p{
+    color: hsl(75, 43%, 60%);
+}
+
+
+.card__container{
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    min-height: 700px auto;
+    border-radius: 20px;
+    
+
+}
+.card__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.card__content{
+    color: rgb(190, 185, 185);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.github{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  
+}
+.frontend{
+    padding: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    }
+
+.twitter{
+    padding: 10px;
+      
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    
+    }
+    .linkedin{
+    padding: 10px;
+       
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        }
+
+.instagram{
+    padding: 10px;
+            
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+        }
+
+ .card__links a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+a:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+     
+   
+
